@@ -1,0 +1,23 @@
+.ethereum-title {
+	text-align: right;
+	margin-top: 20px;
+}
+
+.ethereum-title > span {
+	font-size: 1.5em;
+	padding-left: 30px;
+    line-height: 30px;
+    background: url(../img/ethereum_logo.png) no-repeat 8px;
+    background-size: 18px;
+}
+
+.ethereum-price-list > ul {
+	margin: 0;
+}
+
+.cryptokitty-info {
+	border-radius: 10px;
+	background-color: #EEEEEE;
+	margin: 10px 0;
+	padding: 15px;
+}
