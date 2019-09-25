@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Final Project</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="/css/reset.css" rel="stylesheet">
+	<link href="/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/css/index.css" rel="stylesheet">
+</head>
+<body>
+	<main class="container">
+		<section class="row">
+			<div class="col-12 col-md-7">
+				<h1>Search Crypto Kitties</h1>
+			</div>
+			<div class="col-12 col-md-5">
+				<div class="row">
+					<div class="col-6 ethereum-title">
+						<span>Ethereum</span>
+					</div>
+					<div class="col-6 ethereum-price-list">
+						<ul>
+							<li>CAD: $<span id="price_cad">-</span></li>
+							<li>USD: $<span id="price_usd">-</span></li>
+							<li>JPY: ¥<span id="price_jpy">-</span></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="cryptoKitties_search row">
+			<div class="input-group mb-3 col-12 col-md-10">
+				<input type="text" class="form-control" id="kitty_id" placeholder="Input cryptokitty ID">
+				<div class="input-group-append">
+					<button class="btn btn-outline-secondary" type="button" id="kitty_button">Get Kitty by ID</button>
+				</div>
+			</div>
+			<p class="col-12" id="result"></p>
+		</section>
+		<section id="cryptoKitties-show" class="cryptoKitties_list row">
+			<div class="cryptokitty col-lg-4 col-sm-6 col-12">
+				<div class="cryptokitty-info">
+					<img src="https://img.cryptokitties.co/0x06012c8cf97bead5deae237070f9587f8e7a266d/11.svg">
+					<ul>
+						<li>ID: SAMPLE</li>
+						<li>Birth: 2000/01/01</li>
+						<li>Generation: 1</li>
+						<li>Father: 12345</li>
+						<li>Mother: 67890</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer></footer>
+
+	<script type="text/javascript" src="/js/jquery.js"></script>
+	<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/web3.min.js"></script><!-- 1.0.0-beta.34 -->
+	<script type="text/javascript" src="js/cryptokitties_abi.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
