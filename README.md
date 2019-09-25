@@ -17,3 +17,10 @@ by Tomohiro Furuta
 
 # Notice
 Accessing to the cryptokitties website is baned in the Wifi in GBC, so kitty's image cannot be shown.
+
+# Technical parameters
+- Button action was given with javascript handler.
+- jQuery was used as a javascript library.
+- I used bootstrap as a CSS framework.
+- Ajax used an API to obtain Ethereum prices.
+- Information was obtained from Cryptokitties, one of the smart contracts, using Web3.
