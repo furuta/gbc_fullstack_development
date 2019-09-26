@@ -2,16 +2,24 @@
   "name": "final_project",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "build": "webpack",
-    "start": "webpack-dev-server"
-  },
+  "main": "app.js",
   "dependencies": {
-    "bootstrap": "^4.3.1",
+    "express": "^4.17.1",
     "jquery": "^3.4.1",
     "nodenv": "^0.1.0",
-    "popper.js": "^1.15.0"
+    "popper.js": "^1.15.0",
+    "bootstrap": "^4.3.1"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/furuta/gbc_fullstack_development.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/furuta/gbc_fullstack_development/issues"
+  },
+  "homepage": "https://github.com/furuta/gbc_fullstack_development#readme"
 }
